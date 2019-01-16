@@ -1,0 +1,26 @@
+{
+  "name": "jazzbox-theme",
+  "displayName": "Jazzbox",
+  "publisher": "heavensmile",
+  "description": "a jazzy vscode theme inspired by the gruvbox colorset",
+  "version": "0.0.1",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/bvautour/jazzbox.git"
+  },
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jazzbox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jazzbox.json"
+      }
+    ]
+  }
+}
